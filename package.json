@@ -1,0 +1,20 @@
+{
+  "name": "API-BARBIE",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "cls && nodemon server.js"
+  },
+  "keywords": ["CRUD", "Barbie", "API", "SENAI", "DS", "Personagens", "Servidor", "Node.js", "Back-end", "Barbieverso", "Profissões", "Moda"],
+  "author": "Nicolly Santos",
+  "license": "MIT",
+  "description": "Este projeto consiste em uma aplicação CRUD (Create, Read, Update, Delete) desenvolvida com foco em back-end, utilizando como tema o universo da Barbie.",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
